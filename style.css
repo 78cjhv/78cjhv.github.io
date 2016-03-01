@@ -5,3 +5,68 @@
   -webkit-animation: opac 1.5s;
   animation: opac 1.5s;
 }
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  animation: opac 1.5s;
+}
+#container {
+  width: 100%;
+  height: auto;
+}
+#nav {
+  position: fixed;
+  margin-top: 0px;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.66);
+  z-index: 10;
+}
+#nav a {
+  color: white;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+#nav a:hover, nav a:focus {
+  text-decoration: underline;
+  background: black;
+}
+# nav a:active {
+  transition: 1s;
+}
+ul{}
+.nav-li {
+  display: inline;
+  padding: 1.1em;
+}
+/******TEST BEGIN**********/
+#pres, #exp, #port, #cont {
+  padding: 3em 0;
+  width: 100%;
+  height: 500px;
+}
+#pres {
+  background: orange;
+}
+#exp {
+  background: #00FF00;
+}
+#port {
+  background: red;
+}
+#cont {
+  background: blue;
+}
+/*********TEST END***********/
+
+.text-box {
+  margin: auto;
+  width: auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+.text-box p {
+  margin: none;
+}
