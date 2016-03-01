@@ -1,0 +1,7 @@
+@keyframes opac{
+  from{opacity:0} to{opacity:1}
+}
+.anim-opacity{ 
+  -webkit-animation: opac 1.5s;
+  animation: opac 1.5s;
+}
