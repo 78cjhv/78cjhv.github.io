@@ -9,9 +9,10 @@ body {
   margin: 0;
   text-align: center;
   font-family: sans-serif;
-  animation: opac 1.5s;
+  /*animation: opac 1.5s;*/
 }
 #container {
+  margin: 0;
   width: 100%;
   height: auto;
 }
@@ -63,10 +64,9 @@ ul{}
 /*********TEST END***********/
 
 .text-box {
-  margin: auto;
-  width: auto;
+  /*margin: auto;
+  width: auto;*/
   background: rgba(255, 255, 255, 0.8);
 }
 .text-box p {
-  margin: none;
 }
