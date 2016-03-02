@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; //just in case, default stuff is simply going bananas these days
+    background: black; //temporary placeholder
+}
+#paper {
+  position: absolute;
+  height: auto;
+  width: 95%;
+  z-index: 2;
+  margin: auto;
+  padding: 0;
+  border: dotted 1px green; //temporary, just a visual reference
+  background: rgba(255, 255, 255, 0.9);
+}
+/*whatever*/
