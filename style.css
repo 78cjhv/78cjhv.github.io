@@ -50,16 +50,20 @@ ul{}
   height: 500px;
 }
 #pres {
-  background: orange;
+  background-image: url("pres.jpg");
+  background-color: #000000;
 }
 #exp {
-  background: #00FF00;
+  background-image: url("about.jpg");
+  background-color: #FFFFFF;
 }
 #port {
-  background: red;
+  background-image: url("port.jpg");
+  background-color: #000000;
 }
 #cont {
-  background: blue;
+  background-image: url("contact.jpg");
+  background-color: #FFFFFF;
 }
 /*********TEST END***********/
 
