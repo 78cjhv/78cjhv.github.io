@@ -13,6 +13,6 @@ body {
   margin: 0 auto;
   padding: 0;
   border: dotted 1px green; /*temporary, just a visual reference*/
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 /*whatever*/
