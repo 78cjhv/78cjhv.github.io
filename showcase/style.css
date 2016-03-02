@@ -14,8 +14,8 @@ body {
 #header {
   width: 100%;
   height: 500px;
-  background-image: url("showcase.jpg");
-  background-size: cover;
+/*  background-image: url("showcase.jpg");
+  background-size: cover;*/
   background-color: #000000;
 }
 #box {
