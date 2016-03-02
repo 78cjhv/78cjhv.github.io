@@ -4,16 +4,15 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0; /*just in case, default stuff is simply going bananas these days*/
-    background: black; /*temporary placeholder*/
+    background-color: blue; /*temporary placeholder*/
 }
 #paper {
-  position: absolute;
   height: auto;
   width: 95%;
   z-index: 2;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
   border: dotted 1px green; /*temporary, just a visual reference*/
-  background: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 /*whatever*/
