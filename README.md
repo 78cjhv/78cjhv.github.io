@@ -5,8 +5,16 @@
 # DO NOT README
 # DO NOT README
 
-well looks like you just did
+Well, I don't know about you, but to me it seems like you just already did.
 
-# test
-test
-this is a test
+"Curiosity killed the cat."
+
+# Interested in seeing how I work? Wnat to learn best practices and get recommendations?
+
+Pitch me an e-mail, I'm open for consulting services.
+
+# FAQ
+
+Q: Why do you stick everything directly to the master branch?
+
+A: This was an exception, I like to be transparent with clients.
