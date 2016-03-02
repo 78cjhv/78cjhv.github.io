@@ -28,6 +28,11 @@ body {
   color: #444444;
   font-weight: bold;
 }
+#sub-box {
+  height: auto;
+  width: auto;
+  margin: auto;
+}
 #paper {
   height: auto;
   width: 95%;
