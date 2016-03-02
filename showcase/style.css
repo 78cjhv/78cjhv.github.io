@@ -4,7 +4,19 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0; /*just in case, default stuff is simply going bananas these days*/
-    background-color: blue; /*temporary placeholder*/
+    background-color: #111133; /*temporary placeholder*/
+}
+#container {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+#header {
+  width: 100%;
+  height: 500px;
+  background-image: url("showcase.jpg");
+  background-size: cover;
+  background-color: #000000;
 }
 #paper {
   height: auto;
