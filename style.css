@@ -51,18 +51,22 @@ ul{}
 }
 #pres {
   background-image: url("pres.jpg");
+  background-size: cover;
   background-color: #000000;
 }
 #exp {
   background-image: url("about.jpg");
+  background-size: cover;
   background-color: #FFFFFF;
 }
 #port {
   background-image: url("port.jpg");
+  background-size: cover;
   background-color: #000000;
 }
 #cont {
   background-image: url("contact.jpg");
+  background-size: cover;
   background-color: #FFFFFF;
 }
 /*********TEST END***********/
