@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0; /*just in case, default stuff is simply going bananas these days*/
-    background-color: #111133; /*temporary placeholder*/
+    background: linear-gradient(#111133, #DDDDFF); /*temporary placeholder OR MAYBE NOT*/
 }
 #container {
   margin: 0;
