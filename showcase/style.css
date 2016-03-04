@@ -45,3 +45,26 @@ body {
   margin: 0 auto;
 }
 /*whatever*/
+#sidebar {
+  width: 20%;
+  height: 600px;
+  float: left;
+  font-weight: bold;
+}/*tag system init*/
+.tag {
+  color: white;
+  width: auto;
+  height: auto;
+  padding: 3px;
+  background: #5522AA;
+  border: solid 2px white;
+  transition: color 1s, background 1s;
+}
+.labeler {}
+.item {
+  
+}/*tag system css inner logic*/
+.tag:hover, .tag:focus {
+  color: #5522AA;
+  background: #FF9900;
+}
