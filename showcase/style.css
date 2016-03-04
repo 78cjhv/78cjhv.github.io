@@ -53,8 +53,12 @@ body {
   float: left;
   font-weight: bold;
   border-right: solid 1px #CCCCCC;
+}
+#sidebar p {
+  line-height: 300%;
 }/*tag system init*/
 .tag {
+  display: block;
   color: white;
   font-size: 0.6em;
   width: auto;
@@ -63,7 +67,7 @@ body {
   background: #331188;
   border: solid 2px white;
   border-radius: 8px;
-  transition: color 0.5s, background 0.5s; /*noice*/
+  transition: color 0.5s, background 0.5s, border 0.5s; /*noice*/
 }
 a {
   text-decoration: none;
@@ -74,5 +78,6 @@ a {
 }/*tag system css inner logic*/
 .tag:hover, .tag:focus {
   color: #FF3300;
-  background: #0000FF;
+  background: #FFFFFF;
+  border: solid 2px #FF3300;
 }
