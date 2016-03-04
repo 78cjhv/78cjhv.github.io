@@ -89,7 +89,8 @@ a {
 }
 .content-block {
   width: 49%;
-  display: inline;
+  display: inline-block;
+  overflow: hidden;
   height: 250px; /*test*/
 }
 .si {
