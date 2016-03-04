@@ -44,7 +44,7 @@ body {
   border: dotted 1px green; /*temporary, just a visual reference*/
   background-color: rgba(255, 255, 255, 0.69);
   margin: 0 auto;
-  box-shadow: 0px 25px 30px 10px #888888;
+  box-shadow: 0px 25px 30px 10px #DFDFDF;
 }
 /*whatever*/
 #sidebar {
@@ -82,13 +82,13 @@ a {
   border: solid 2px #FF3300;
 }
 #content {
-  width: 79.9%;
+  width: 79%;
   height: auto;
   margin: 0;
   float: right;
 }
 .content-block {
-  width: 33%;
+  width: 49%;
   display: inline;
   height: 250px; /*test*/
 }
