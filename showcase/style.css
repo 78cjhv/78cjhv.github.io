@@ -80,8 +80,14 @@ a {
   background: #FFFFFF;
   border: solid 2px #FF3300;
 }
+#content {
+  width: 89.9%;
+  height: auto;
+  margin: 0;
+  float: right;
+}
 .content-block {
-  width: 26%;
+  width: 33%;
   display: block;
   height: 250px; /*test*/
 }
