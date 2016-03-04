@@ -47,11 +47,11 @@ body {
 }
 /*whatever*/
 #sidebar {
-  width: 20%;
+  width: 5px;
   height: 600px;
   float: left;
   font-weight: bold;
-  border-right: solid 1px #AAAAAA;
+  border-right: solid 1px #CCCCCC;
 }/*tag system init*/
 .tag {
   color: white;
@@ -68,6 +68,6 @@ body {
   
 }/*tag system css inner logic*/
 .tag:hover, .tag:focus {
-  color: #331188;
-  background: #FF7700;
+  color: #FF5500;
+  background: #000077;
 }
