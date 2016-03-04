@@ -35,7 +35,7 @@ body {
   margin: auto;
 }
 #paper {
-  position: static;
+  position: relative;
   height: auto;
   width: 95%;
   z-index: 2;
@@ -47,7 +47,8 @@ body {
 }
 /*whatever*/
 #sidebar {
-  width: 5px;
+  position: absolute;
+  width: 20%;
   height: 600px;
   float: left;
   font-weight: bold;
@@ -55,12 +56,13 @@ body {
 }/*tag system init*/
 .tag {
   color: white;
+  font-size: 0.7em;
   width: auto;
   height: auto;
   padding: 8px;
   background: #331188;
   border: solid 2px white;
-  border-radius: 20%;
+  border-radius: 5px;
   transition: color 1s, background 1s;
 }
 .labeler {}
@@ -68,6 +70,6 @@ body {
   
 }/*tag system css inner logic*/
 .tag:hover, .tag:focus {
-  color: #FF5500;
-  background: #000077;
+  color: #FF3300;
+  background: #0000FF;
 }
