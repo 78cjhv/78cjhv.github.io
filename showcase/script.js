@@ -2,6 +2,6 @@
 
 $(document).ready(function () { /*your usual init stuff*/
   $("button").click(function () {
-    $("itemEr").fadeToggle(200);
+    $(".itemEr").fadeToggle(200);
   });
 });
