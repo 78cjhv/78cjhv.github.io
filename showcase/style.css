@@ -58,7 +58,6 @@ body {
   line-height: 300%;
 }/*tag system init*/
 .tag {
-  display: block;
   color: white;
   font-size: 0.6em;
   width: auto;
