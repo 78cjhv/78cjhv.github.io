@@ -42,7 +42,7 @@ body {
   margin: 0 auto;
   padding: 0;
   border: dotted 1px green; /*temporary, just a visual reference*/
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.85);
   margin: 0 auto;
 }
 /*whatever*/
@@ -62,10 +62,10 @@ body {
   padding: 8px;
   background: #331188;
   border: solid 2px white;
-  border-radius: 10px;
-  transition: color 1s, background 1s; /*noice*/
+  border-radius: 8px;
+  transition: color 0.5s, background 0.5s; /*noice*/
 }
-.tag a {
+a {
   text-decoration: none;
 }
 .labeler {}
