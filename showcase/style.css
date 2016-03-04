@@ -44,6 +44,7 @@ body {
   border: dotted 1px green; /*temporary, just a visual reference*/
   background-color: rgba(255, 255, 255, 0.69);
   margin: 0 auto;
+  box-shadow: 0px 10px 30px 10px #888888;
 }
 /*whatever*/
 #sidebar {
@@ -81,14 +82,14 @@ a {
   border: solid 2px #FF3300;
 }
 #content {
-  width: 89.9%;
+  width: 79.9%;
   height: auto;
   margin: 0;
   float: right;
 }
 .content-block {
   width: 33%;
-  display: block;
+  /*display: block;*/
   height: 250px; /*test*/
 }
 .si {
