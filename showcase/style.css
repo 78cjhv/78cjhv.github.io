@@ -56,16 +56,16 @@ body {
 }/*tag system init*/
 .tag {
   color: white;
-  font-size: 0.7em;
+  font-size: 0.6em;
   width: auto;
   height: auto;
   padding: 8px;
   background: #331188;
   border: solid 2px white;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: color 1s, background 1s;
 }
-a .tag {
+.tag a {
   text-decoration: none;
 }
 .labeler {}
