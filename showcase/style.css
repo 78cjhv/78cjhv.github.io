@@ -80,3 +80,20 @@ a {
   background: #FFFFFF;
   border: solid 2px #FF3300;
 }
+.content-block {
+  width: 26%;
+  display: block;
+  height: 250px; /*test*/
+}
+.si {
+  background: #FF0000;
+}
+.mon {
+  background: #0000FF;
+}
+.sa {
+  background: #FFFF00;
+}
+.ys {
+  background: #00FF00;
+}
