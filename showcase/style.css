@@ -36,7 +36,7 @@ body {
 }
 #paper {
   position: relative;
-  height: auto;
+  height: 800px; /*test*/
   width: 95%;
   z-index: 2;
   margin: 0 auto;
@@ -47,7 +47,7 @@ body {
 }
 /*whatever*/
 #sidebar {
-  position: absolute;
+  position: static; /*test*/
   width: 20%;
   height: 600px;
   float: left;
@@ -63,7 +63,7 @@ body {
   background: #331188;
   border: solid 2px white;
   border-radius: 10px;
-  transition: color 1s, background 1s;
+  transition: color 1s, background 1s; /*noice*/
 }
 .tag a {
   text-decoration: none;
