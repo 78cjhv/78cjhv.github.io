@@ -17,4 +17,4 @@ Pitch me an e-mail, I'm open for consulting services.
 
 Q: Why do you stick everything directly to the master branch?
 
-A: This was an exception, I like to be transparent with clients.
+A: This was an exception, I like to be transparent with my clients.
