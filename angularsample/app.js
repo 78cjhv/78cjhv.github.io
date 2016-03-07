@@ -1,2 +1,2 @@
 /*more fancy stuff*/
-/*var app = angular.module('sampleStore', []);*/
+var app = angular.module('sampleStore', []);
