@@ -120,7 +120,7 @@ a {
 }
 #filter-bar-body {
   margin: auto;
-  padding: 0 auto;
+  padding: 0;
 }
 #clear-filter {
   float: right;
@@ -138,5 +138,5 @@ a {
 #clear-filter:hover, #clear-filter:focus {
   color: #DF2222;
   background: #FFFFFF;
-  border solid 2px#FFFFFF;
+  border: solid 2px #FFFFFF;
 }
