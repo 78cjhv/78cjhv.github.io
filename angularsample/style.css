@@ -1,7 +1,8 @@
 /*boom! miss me yet?*/
 #first {
-  background-image: url('cover.jpg');
+  background-image: url('./cover.jpg');
   background-size: cover;
+  background-color: green;
 }
 .blk {
   background: rgba(0, 0, 0, 0.6);
@@ -9,6 +10,10 @@
   height: 500px;
   color: white;
   font-family: "Poiret One", sans-serif;
+  text-align: center;
+}
+.blk h1 {
+  margin: auto;
 }
 .ornj {
   background: rgba(255, 200, 0, 0.6);
