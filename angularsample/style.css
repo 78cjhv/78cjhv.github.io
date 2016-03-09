@@ -1,4 +1,7 @@
 /*boom! miss me yet?*/
+.container-fluid {
+  padding: 0px;
+}
 #first {
   background-image: url('./cover.jpg');
   background-size: cover;
