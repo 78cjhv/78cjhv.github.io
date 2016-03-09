@@ -21,6 +21,9 @@
 .blk h1 {
   margin: auto;
 }
+.blk h2 {
+  font-family: "Quicksand", sans-serif;
+}
 .ornj {
   background: rgba(255, 135, 0, 0.6);
   width: 100%;
