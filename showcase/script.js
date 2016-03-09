@@ -1,5 +1,5 @@
 /*fancy stuff*/
-
+console.log("wow here it goes");
 $(document).ready(function () { /*your usual init stuff*/
   
   $(".tag-WRITING").click(function () {       //  test, this will pretty much be the initial structure     //
