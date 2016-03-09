@@ -42,7 +42,7 @@ $(document).ready(function () { /*your usual init stuff*/
     $(".item-BACKEND").fadeIn(550);
   }); 
   
-  $(".clear-filter").click(function () {
+  $("#clear-filter").click(function () {
     $(".itemEr").fadeIn(550);
     /*aaaaand reset the target span*/
   });
