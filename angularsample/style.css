@@ -3,6 +3,7 @@
   background-image: url('./cover.jpg');
   background-size: cover;
   background-color: green;
+  margin: 0;
 }
 .blk {
   background: rgba(0, 0, 0, 0.6);
