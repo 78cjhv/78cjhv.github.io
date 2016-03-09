@@ -44,13 +44,13 @@ body {
   border: dotted 1px green; /*temporary, just a visual reference*/
   background-color: rgba(255, 255, 255, 0.69);
   margin: 0 auto;
-  box-shadow: 0px 25px 30px 10px #DFDFDF;
-}
-/*whatever*/
-#sidebar {
-  position: static; /*test*/
-  width: 20%;
-  height: 600px;
+  box-shadow: 0px 25px 30px 10px #DFDFDF;                    /*********************************/
+}                                                            /*   '#paper' isnt resizing      */
+/*whatever*/                                                 /*  properly maybe because the   */
+#sidebar {                                                   /*   float treats inner divs     */
+  position: static; /*test*/                                 /*  like inline elements instead */
+  width: 20%;                                                /*    of blocks... maaaybe       */
+  height: 600px;                                             /*********************************/
   float: left;
   font-weight: bold;
   border-right: solid 1px #CCCCCC;
