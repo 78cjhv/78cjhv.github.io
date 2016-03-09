@@ -1,5 +1,5 @@
 /*boom! miss me yet?*/
-#first {
+.first {
   background-image: url('./cover.jpg');
   background-size: cover;
   background-color: green;
