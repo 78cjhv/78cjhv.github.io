@@ -43,7 +43,7 @@ $(document).ready(function () { /*your usual init stuff*/
   }); 
   
   $("#clear-filter").click(function () {
-    $(".itemEr").fadeout(550);
+    $(".itemEr").fadeOut(550);
     $(".itemEr").delay(550).fadeIn(550);
     /*aaaaand reset the target span*/
   });
