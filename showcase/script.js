@@ -36,7 +36,7 @@ $(document).ready(function () { /*your usual init stuff*/
     $(".itemEr").fadeOut(550);
     $(".item-FRONTEND").delay(550).fadeIn(550);
     $("#filter-target").html("");
-    $("#filter-target").html("<a href="#paper"><span class="tag labelEr tag-WRITING">WRITING<i class="iconite"</i></i></span></a>");
+    $("#filter-target").html("<a href='#paper'><span class='tag labelEr tag-WRITING'>WRITING<i class='iconite'</i></i></span></a>");
   }); 
 
   $(".tag-BACKEND").click(function () {
