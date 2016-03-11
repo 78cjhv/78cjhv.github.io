@@ -35,6 +35,8 @@ $(document).ready(function () { /*your usual init stuff*/
   $(".tag-FRONTEND").click(function () {
     $(".itemEr").fadeOut(550);
     $(".item-FRONTEND").delay(550).fadeIn(550);
+    $("#filter-target").html("");
+    $("#filter-target").html("<a href="#paper"><span class="tag labelEr tag-WRITING">WRITING<i class="iconite"</i></i></span></a>");
   }); 
 
   $(".tag-BACKEND").click(function () {
@@ -45,7 +47,8 @@ $(document).ready(function () { /*your usual init stuff*/
   $("#clear-filter").click(function () {
     $(".itemEr").fadeOut(550);
     $(".itemEr").delay(550).fadeIn(550);
-    /*aaaaand reset the target span*/
+    $("#filter-target").html("");
+    $("#filter-target").html("not applied");
   });
   
 });
