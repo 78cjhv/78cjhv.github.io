@@ -48,7 +48,7 @@ $(document).ready(function () { /*your usual init stuff*/
     $(".itemEr").fadeOut(550);
     $(".itemEr").delay(550).fadeIn(550);
     $("#filter-target").html("");
-    $("#filter-target").html("not applied");
+    $("#filter-target").html("none");
   });
   
 });
