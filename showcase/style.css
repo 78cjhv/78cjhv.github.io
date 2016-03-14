@@ -41,14 +41,14 @@ body {
   z-index: 2;
   margin: 0 auto;
   padding: 0;
-  border: dotted 1px green; /*temporary, just a visual reference*/
+  border: dotted 1px green; /*temporary, just a visual reference**/
   background-color: rgba(255, 255, 255, 0.69);
   margin: 0 auto;
   box-shadow: 0px 25px 30px 10px #DFDFDF;                    /*********************************/
 }                                                            /*   '#paper' isnt resizing      */
 /*whatever*/                                                 /*  properly maybe because the   */
 #sidebar {                                                   /*   float treats inner divs     */
-  position: static; /*test*/                                 /*  like inline elements instead */
+  position: static; /*test****************/                  /*  like inline elements instead */
   width: 20%;                                                /*    of blocks... maaaybe       */
   height: 600px;                                             /*********************************/
   float: left;
@@ -92,7 +92,7 @@ a {
   width: 49%;
   display: inline-block;
   overflow: hidden;
-  height: 250px; /*test*/
+  height: 250px; /*test******************************************************************************/
 }
 .si {
   background: #FF0000;
@@ -107,6 +107,7 @@ a {
   background: #00FF00;
 }
 #filter-bar {
+  display: none; /*test**************************************************************************************/
   width: 100%;
   top: 0;
   border-bottom: solid 1px #CCCCCC;
