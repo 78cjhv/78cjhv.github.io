@@ -11,7 +11,36 @@
 
 <body>
 
-<div><p><h1>Stuff</h1></p></div>
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Nav n Title</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Check out all the stuff we have</p>
+    ACCESS <a href="#pagetwo" data-transition="slide">NOW</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Some Stuff</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Nav n Title</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Nothing seems to be here, check out in a couple of days.</p>
+    <a href="#pageone" data-transition="slide" data-direction="reverse">Back</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Some stuff</h1>
+  </div>
+</div> 
+
 
 </body>
 </html>
