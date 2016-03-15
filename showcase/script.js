@@ -44,6 +44,15 @@ $(document).ready(function () { /*your usual init stuff*/
     $(".item-BACKEND").delay(550).fadeIn(550);
   }); 
   
+  $(".tag").click(function () {
+    if (document.getElementById("filter-target").innerHTML === "none") {
+          $("#filter-bar").css("display", "block");
+          /*and some more*/
+    } else {
+        /*we'll see*/
+    }
+  });
+  
   $("#clear-filter").click(function () {
     $(".itemEr").fadeOut(550);
     $(".itemEr").delay(550).fadeIn(550);
