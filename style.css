@@ -5,6 +5,17 @@
   -webkit-animation: opac 1.5s;
   animation: opac 1.5s;
 }
+
+a {
+  color: #FF7F00;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #DD4D00;
+  text-decoration: underline;
+}
+
 body {
   margin: 0px;
   text-align: center;
@@ -53,7 +64,7 @@ ul{}
 #pres, #exp, #port, #cont {
   padding: 3em 0;
   width: 100%;
-  height: 500px;
+  height: 70vh;
 }
 #pres {
   background-image: url("pres.jpg");
@@ -83,6 +94,7 @@ ul{}
 }
 
 .text-box {
+  vertical-align: middle;
   display: inline-block;
   background: rgba(255, 255, 255, 0.5);
 }
