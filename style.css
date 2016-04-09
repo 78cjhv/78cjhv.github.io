@@ -88,11 +88,6 @@ ul{}
 }
 /*********TEST END***********/
 
-.bbb {
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-}
-
 .text-box {
   vertical-align: middle;
   display: inline-block;
@@ -101,6 +96,11 @@ ul{}
 .text-box p {
   margin: 0px;
   padding: 0px;
+}
+
+.bbb {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #footer { /*lazy fast setup*/
