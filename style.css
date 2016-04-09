@@ -6,11 +6,16 @@
   animation: opac 1.5s;
 }
 body {
-  margin: 0;
+  margin: 0px;
   text-align: center;
   font-family: sans-serif;
   /*animation: opac 1.5s;*/
 }
+
+p {
+  padding: 0px;
+}
+
 #container {
   margin: 0;
   width: 100%;
@@ -34,6 +39,7 @@ body {
 #nav a:hover, nav a:focus {
   text-decoration: underline;
   background: black;
+  color: #FF7E00;
 }
 # nav a:active {
   transition: 1s;
@@ -71,10 +77,22 @@ ul{}
 }
 /*********TEST END***********/
 
+.bbb {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .text-box {
-  /*margin: auto;
-  width: auto;*/
-  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);
 }
 .text-box p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer { /*lazy fast setup*/
+  color: white;
+  background: black;
+  padding: 2.5%;
 }
