@@ -9,10 +9,7 @@ Well, I don't know about you, but to me it seems like you just already did.
 
 "Curiosity killed the cat."
 
-# Interested in seeing how I work? Want to learn best practices and get recommendations?
-
-Pitch me an e-mail, I'm open for consulting services.
-
+# boing
 # FAQ
 
 Q: Why do you stick everything directly to the master branch?
