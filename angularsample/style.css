@@ -35,14 +35,15 @@
   height: auto;
   margin: 13%;
   padding: 2px;
-  background: rgba(0, 0, 0, 0.63);
+  background: rgba(57, 150, 176, 0.62);
   border-radius: 2px;
-  box-shadow: 0px 6px 12px #D0D0D0;
+  box-shadow: 0px 6px 12px rgba(255, 255, 255, 0.28);
 }
 #inner-head-box {
   display: inline-block;
   width: auto;
   height: auto;
   margin: 2% 13%;
-  color: #DDDDDD;
+  color: #F0F0F0;
+  text-shadow: rgba(0, 0, 0, 0.7);
 }
