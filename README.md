@@ -14,4 +14,4 @@ Well, I don't know about you, but to me it seems like you just already did.
 
 Q: Why do you stick everything directly to the master branch?
 
-A: This was an exception, I like to be transparent with my clients.
+A: This is an exception, I like to be transparent.
