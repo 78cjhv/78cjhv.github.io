@@ -44,7 +44,7 @@ body {
   border: dotted 1px green; /*temporary, just a visual reference**/
   background-color: rgba(255, 255, 255, 0.69);
   margin: 0 auto;
-  box-shadow: 0px 25px 30px 10px #DFDFDF;                    /*********************************/
+  box-shadow: 0px 10px 30px 10px rgba(255, 255, 255, 0.45);  /*********************************/
 }                                                            /*   '#paper' isnt resizing      */
 /*whatever*/                                                 /*  properly maybe because the   */
 #sidebar {                                                   /*   float treats inner divs     */
